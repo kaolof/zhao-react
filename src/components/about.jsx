@@ -5,12 +5,12 @@ import '../styles/style.css';
 export const About = (props) => {
   return (
     <section id="about_us">
-      <div class="section-img-container">
+      <div className="section-img-container">
         <img id="about_us-img" src={AboutImg} alt="staff img" />
       </div>
 
-      <div class="section-content">
-        <span class="subtitle">About us</span>
+      <div className="section-content">
+        <span className="subtitle">About us</span>
         <h2>We're not your typical staffing agency</h2>
         <p>
           At ZHAO Agency, we specialize in full-service event production staffing. Since 2020, we’ve been all in on making events shine,
@@ -20,7 +20,7 @@ export const About = (props) => {
           We manage the tough stuff! enjoy a stress-free event journey we're here for you, anywhere in America.
         </p>
 
-        <a class="btn purple" href="#we_offer">Learn more</a>
+        <a className="btn purple" href="#we_offer">Learn more</a>
       </div>
     </section>
   );

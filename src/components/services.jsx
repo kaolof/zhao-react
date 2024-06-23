@@ -9,13 +9,13 @@ import FloristImg from "../assets/images/florist.png";
 export const Services = (props) => {
   return (
     <section id="services">
-      <h3 class="small-heading">SERVICES</h3>
-      <div class="card-container">
-        <div class="card">
-          <div class="card-img">
+      <h3 className="small-heading">SERVICES</h3>
+      <div className="card-container">
+        <div className="card">
+          <div className="card-img">
             <img src={CrewImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Production crew</h3>
             <p>
               Leave the hard work to our proficient production guys. From unloading furniture to flawlessly managing set up and breakdown,
@@ -24,11 +24,11 @@ export const Services = (props) => {
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img">
+        <div className="card">
+          <div className="card-img">
             <img src={LeadsImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Production leads</h3>
             <p>
               Let our seasoned leads take your event to the next level, our bilingual leads take charge behind the scenes, making smooth workflows and time.
@@ -36,11 +36,11 @@ export const Services = (props) => {
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img">
+        <div className="card">
+          <div className="card-img">
             <img src={DriversImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Drivers</h3>
             <p>
               Our team of expert drivers handles various vehicles, including trucks, ensuring seamless transportation for your deliveries and operations.
@@ -48,11 +48,11 @@ export const Services = (props) => {
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img">
+        <div className="card">
+          <div className="card-img">
             <img src={LogisticImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Logistic managers</h3>
             <p>
               Our logistic managers are the backbone of event operations. They handle staff scheduling, meticulous check-in/out recording, and ensure adherence to production timelines at every stage of the event.
@@ -60,11 +60,11 @@ export const Services = (props) => {
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img">
+        <div className="card">
+          <div className="card-img">
             <img src={WarehouseImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Warehouse support</h3>
             <p>
               Our warehouse staff ensures the organization of event hard goods and furniture, guaranteeing that everything is in place for a seamless post-event operation.
@@ -72,11 +72,11 @@ export const Services = (props) => {
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-img">
+        <div className="card">
+          <div className="card-img">
             <img src={FloristImg} alt="" />
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <h3>Florist services</h3>
             <p>
               Our florist services include talented floral designers who create stunning floral designs for your event. We also provide skilled Floral assistants to provide production support
