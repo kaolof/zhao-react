@@ -2,42 +2,24 @@ import React from "react";
 
 export const About = (props) => {
   return (
-    <div id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section id="about_us">
+      <div class="section-img-container">
+        <img id="about_us-img" src="./assets/images/about_us.jpg" alt="staff img" />
       </div>
-    </div>
+
+      <div class="section-content">
+        <span class="subtitle">About us</span>
+        <h2>We're not your typical staffing agency</h2>
+        <p>
+          At ZHAO Agency, we specialize in full-service event production staffing. Since 2020, we’ve been all in on making events shine,
+          from setup to candles out.
+          <br />
+          <br />
+          We manage the tough stuff! enjoy a stress-free event journey we're here for you, anywhere in America.
+        </p>
+
+        <a class="btn purple" href="#we_offer">Learn more</a>
+      </div>
+    </section>
   );
 };

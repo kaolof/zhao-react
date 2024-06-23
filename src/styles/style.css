@@ -73,7 +73,6 @@ a {
 
 #header {
   height: 85vh;
-  /*background: url("./assets/images/backgroung_placeholder.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -175,6 +174,10 @@ a {
   text-transform: uppercase;
 }
 
+#menu-toggle {
+  cursor: pointer;
+}
+
 #mobile-menu {
   display: none;
   position: absolute;
@@ -183,6 +186,7 @@ a {
   width: 200px;
   background-color: var(--cultured);
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #mobile-menu li {

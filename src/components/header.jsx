@@ -1,29 +1,25 @@
 import React from "react";
+import video from '../assets/video/zhao_video.mp4';
+import '../styles/style.css'
 
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
-        <div className="overlay">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Learn More
-                </a>{" "}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <video autoplay muted loop id="video-bg">
+      <source src={video} type="video/mp4" />
+    </video>
+    <div class="header-overlay"></div>
+    <div class="header-content">
+      <h1>Next-level <span>Event Staffing Solutions</span></h1>
+      <a class="btn secondary" href="#we_offer">Let's dive in</a>
+    </div>
+    <div id="stats">
+      <ul>
+        <li>245<span>Events</span></li>
+        <li>545<span>Professionals</span></li>
+        <li>13<span>states</span></li>
+      </ul>
+    </div>
+  </header>
   );
 };
