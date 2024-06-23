@@ -5,13 +5,13 @@ import '../styles/style.css'
 export const Header = (props) => {
   return (
     <header id="header">
-    <video autoplay muted loop id="video-bg">
+    <video autoPlay muted loop id="video-bg">
       <source src={video} type="video/mp4" />
     </video>
-    <div class="header-overlay"></div>
-    <div class="header-content">
+    <div className="header-overlay"></div>
+    <div className="header-content">
       <h1>Next-level <span>Event Staffing Solutions</span></h1>
-      <a class="btn secondary" href="#we_offer">Let's dive in</a>
+      <a className="btn secondary" href="#we_offer">Let's dive in</a>
     </div>
     <div id="stats">
       <ul>

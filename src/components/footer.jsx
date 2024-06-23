@@ -7,20 +7,20 @@ import TelImg from "../assets/icons/rrss/telefono.png";
 export const Footer = (props) => {
   return (
     <footer>
-      <div class="footer-items">
-        <div class="footer-item footer-logo">
+      <div className="footer-items">
+        <div className="footer-item footer-logo">
           <img src={Logo} alt="zhao logo"/>
         </div>
-        <div class="footer-item">
-          <ul class="footer-menu">
+        <div className="footer-item">
+          <ul className="footer-menu">
             <li><a href="">WHAT WE DO</a></li>
             <li><a href="">SERVICES</a></li>
             <li><a href="">ABOUT</a></li>
             <li><a href="">CONTACT US</a></li>
           </ul>
         </div>
-        <div class="footer-item">
-          <ul class="footer-menu-social">
+        <div className="footer-item">
+          <ul className="footer-menu-social">
             <li>
               <a href="https://wa.link/o0r67x" target="_blank">
                 <img src={WhatsImg} alt="whatsapp"/>
@@ -37,13 +37,13 @@ export const Footer = (props) => {
               </a>
             </li>         
           </ul>
-          <div class="footer-contact">
+          <div className="footer-contact">
             <p>info@uszhao.com</p>
             <p>786-585-2690</p>
           </div>
         </div>
       </div>
-      <div class="copyright">
+      <div className="copyright">
         <p> Terms & Conditions | Privacy Policy | © 2024 All rights reserved</p>
       </div>
     </footer>

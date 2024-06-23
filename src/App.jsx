@@ -8,8 +8,6 @@ import { OurGoal } from "./components/ourgoal";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import SmoothScroll from "smooth-scroll";
-import "./App.css";
-/* import './styles/style.css'; */
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
