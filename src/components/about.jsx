@@ -1,10 +1,12 @@
 import React from "react";
+import AboutImg from '../assets/images/about_us.jpg';
+import '../styles/style.css';
 
 export const About = (props) => {
   return (
     <section id="about_us">
       <div class="section-img-container">
-        <img id="about_us-img" src="./assets/images/about_us.jpg" alt="staff img" />
+        <img id="about_us-img" src={AboutImg} alt="staff img" />
       </div>
 
       <div class="section-content">

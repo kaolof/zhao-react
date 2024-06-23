@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import logo from '../assets/logo.svg';
 import burgerIcon from '../assets/icons/burguer_menu.svg';
-import '../styles/style.css';
+/* import '../styles/style.css'; */
 
 export const Navigation = (props) => {
   // Crear referencias para los elementos del DOM

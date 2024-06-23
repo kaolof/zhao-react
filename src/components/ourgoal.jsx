@@ -1,10 +1,12 @@
 import React from "react";
+import OurGoalImg from '../assets/images/our_goal.jpg';
+import '../styles/style.css';
 
-export const About = (props) => {
+export const OurGoal = (props) => {
   return (
     <section id="your_events">
       <div class="section-img-container">
-        <img id="our_goal-img"src="./assets/images/our_goal.jpg" alt="staff img" />
+        <img id="our_goal-img" src={OurGoalImg} alt="staff img" />
       </div>
       <div class="section-content">
         <span class="subtitle">Our Goal</span>
